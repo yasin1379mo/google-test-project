@@ -1,0 +1,227 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <link rel="icon" href="title bar.png" />
+    <title>Google</title>
+  </head>
+  <body>
+    <header>
+      <nav>
+        <ul class="header-nav">
+          <a href="#">Gmail</a>
+          <a href="#">Images</a>
+          <button type="button" class="button-of-apps" onclick="toggle()">
+            <img class="header-img" src="img/menu.png" alt="menu" />
+          </button>
+          <img
+            onclick="showhide()"
+            class="profile-pic"
+            src="apps/icons8-test-account-80.png"
+            alt="profile"
+            id="prof-butt"
+          />
+          <!-- <button class="sign-in" type="button">Sign in</button> -->
+        </ul>
+        <ul></ul>
+      </nav>
+      <div class="app-menu-wrap" id="apps">
+        <div class="app-menu">
+          <a href="#"
+            ><img
+              src="apps/icons8-test-account-80.png"
+              alt="account"
+              class="app"
+            />
+            <p>Account</p></a
+          >
+          <a href="http://google.com">
+            <img src="apps/icons8-google.svg" alt="search" class="app" />
+            <p>Search</p></a
+          >
+          <a href="#"
+            ><img src="apps/icons8-google-maps.svg" class="app" alt="maps" />
+            <p>Maps</p></a
+          >
+          <a href="#"
+            ><img src="apps/icons8-google-play.svg" alt="play" class="app" />
+            <p>Play</p></a
+          >
+          <a href="#"
+            ><img src="apps/icons8-google-news.svg" alt="news" class="app" />
+            <p>News</p></a
+          >
+          <a href="#"
+            ><img src="apps/icons8-gmail.svg" alt="gmail" class="app" />
+            <p>Gmail</p></a
+          >
+          <a href="#"
+            ><img src="apps/icons8-google-meet.svg" alt="meet" class="app" />
+            <p>Meet</p></a
+          >
+          <a href="#"
+            ><img src="apps/icons8-chat-room-96.png" alt="chat" class="app" />
+            <p>Chat</p></a
+          >
+          <a href="#"
+            ><img
+              src="apps/icons8-google-contacts.svg"
+              alt="contacts"
+              class="app"
+            />
+            <p>Contacts</p></a
+          >
+          <a href="#"
+            ><img
+              src="apps/icons8-google-contacts.svg"
+              alt="contacts"
+              class="app"
+            />
+            <p>Contacts</p></a
+          >
+          <a href="#"
+            ><img
+              src="apps/icons8-google-contacts.svg"
+              alt="contacts"
+              class="app"
+            />
+            <p>Contacts</p></a
+          >
+          <a href="#"
+            ><img
+              src="apps/icons8-google-contacts.svg"
+              alt="contacts"
+              class="app"
+            />
+            <p>Contacts</p></a
+          >
+          <a href="#"
+            ><img
+              src="apps/icons8-google-contacts.svg"
+              alt="contacts"
+              class="app"
+            />
+            <p>Contacts</p></a
+          >
+          <a href="#"
+            ><img
+              src="apps/icons8-google-contacts.svg"
+              alt="contacts"
+              class="app"
+            />
+            <p>Contacts</p></a
+          >
+          <a href="#"
+            ><img
+              src="apps/icons8-google-contacts.svg"
+              alt="contacts"
+              class="app"
+            />
+            <p>Contacts</p></a
+          >
+
+          <button type="button" class="app-button">More from Google</button>
+        </div>
+      </div>
+      <div class="profile-wrap" id="prof-menu">
+        <div class="profile">
+          <div class="u-info">
+            <img
+              src="apps/icons8-test-account-80.png"
+              alt="profile-pic"
+              class="p-pic"
+            />
+            <div class="info-text">
+              <h5>your name</h5>
+              <p>your_email@gmail.com</p>
+            </div>
+          </div>
+          <a href="#">
+            <img
+              src="apps/camera.svg"
+              class="p-change"
+              alt="change-profile-pic"
+            />
+          </a>
+          <button type="button" class="manage">
+            Manage your Google Account
+          </button>
+        </div>
+        <div class="add-user">
+          <div class="add-item">
+            <a href="#">
+              <img src="apps/add-user.png" class="add-icon" alt="add-account" />
+              <p>Add another account</p></a
+            >
+          </div>
+        </div>
+        <div class="logout">
+          <a href="#">
+            <img src="apps/sign-out.png" class="out-icon" alt="sign-out" />
+            <p>Sign out</p></a
+          >
+        </div>
+        <div class="p-foot">
+          <a href="#">Privacy Policy</a><strong>.</strong
+          ><a href="#">Terms of Service</a>
+        </div>
+      </div>
+    </header>
+    <!-- body body
+        body body
+        body body
+        body body-->
+    <section>
+      <div class="logo">
+        <img
+          class="google-logo"
+          src="img/googlelogo_color_272x92dp.png"
+          alt="logo"
+        />
+      </div>
+      <div class="input-container">
+        <img
+          class="s-icon"
+          src="img/search_FILL0_wght400_GRAD0_opsz48.svg"
+          alt="search-icon"
+        />
+        <input class="search-box" type="search" name="search" />
+        <img
+          class="mic"
+          src="img/Google_mic.svg"
+          alt="mic-icon"
+          title="search by voice"
+        />
+        <img
+          class="lens"
+          src="img/google_lens.svg"
+          alt="lens-icon"
+          title="search by image"
+        />
+      </div>
+      <div class="button-container">
+        <button class="button2">Google Search</button>
+        <button class="button2">I'm Feeling Lucky</button>
+      </div>
+    </section>
+    <footer>
+      <nav class="footer">
+        <ul id="footer-left">
+          <a href="#">About</a>
+          <a href="#">Advertising</a>
+          <a href="#">Business</a>
+          <a href="#">How Search works</a>
+        </ul>
+        <ul id="footer-right">
+          <a href="#">Privacy</a>
+          <a href="#">Terms</a>
+          <a href="#">Settings</a>
+        </ul>
+      </nav>
+    </footer>
+    <script src="main.js"></script>
+  </body>
+</html>
